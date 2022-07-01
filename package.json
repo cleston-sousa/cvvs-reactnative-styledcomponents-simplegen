@@ -1,0 +1,17 @@
+{
+  "name": "cvvs-reactnative-styledcomponents-simplegen",
+  "version": "1.0.0",
+  "description": "Create React Native Component and Styled Components files with a single command",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cleston Sousa",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  },
+  "bin": {
+    "c-rnc": "./bin/index.js"
+  }
+}
