@@ -87,7 +87,7 @@ const componentContent =
   "}" +
   "\n" +
   "\n" +
-  "export function Button({ title, onPress, type, ...rest }: IProps) {" +
+  "export function " + argv.c + "({ title, onPress, type, ...rest }: IProps) {" +
   "\n" +
   "  return (" +
   "\n" +
@@ -123,6 +123,10 @@ const stylesContent =
   "  padding: 19px 23px ${RFValue(42)}px;" +
   "\n" +
   "  margin-right: 16px;" +
+  "\n" +
+  "  align-items: center;" +
+  "\n" +
+  "  justify-content: center;" +
   "\n" +
   "\n" +
   "  background-color: ${({ theme, type }) => type === 'up' ? theme.colors.up : theme.colors.down};" +
